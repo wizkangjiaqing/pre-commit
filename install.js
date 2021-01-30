@@ -7,7 +7,7 @@ var fs = require('fs')
   , path = require('path')
   , os = require('os')
   , hook = path.join(__dirname, 'hook')
-  , root = path.resolve(__dirname, '..')2222
+  , root = path.resolve(__dirname, '..')
   , exists = fs.existsSync || path.existsSync;
 
 //
